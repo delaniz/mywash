@@ -1,14 +1,22 @@
 # MyWash
 
-Responsive rebuild of the MyWash Vienna vehicle detailing website. The project starts from the current live page and includes three switchable visual directions: Original, Atelier, and Urban.
+Responsive Neuaufbau der MyWash-Website mit den Bereichen und Kerninhalten der bestehenden Live-Seite: Leistungen, Preise, Foto-Service, Parkhäuser, Sitztrocknung, Bewertungen und Termin-Anfrage.
 
-## Run locally
+## Lokal starten
 
 ```sh
 npm install
 npm run dev
 ```
 
-The website includes a six-step price request flow, package details, garage lookup interaction, before/after slider, photo gallery, and responsive layouts. The current request submission is a WhatsApp handoff; actual availability and form delivery need a backend integration.
+## Designvorlagen
 
-Image URLs are temporary Unsplash stand-ins. Replace them with approved MyWash photos before publishing. Legal pages also need final business and privacy details.
+- **Original** – dunkler Hero, helle Flächen und Limettengrün, orientiert an der aktuellen Website.
+- **Atelier** – warme Naturtöne und ruhigere Serifenschriften.
+- **Urban** – kantigere Karten, stärkerer Kontrast und leuchtendes Gelbgrün.
+
+Die Auswahl befindet sich rechts oben. Der Preisrechner hat sechs Schritte und führt zur Anfrage per WhatsApp. Die Vorschläge für Parkhäuser sind derzeit Demo-Inhalte; echte Terminverfügbarkeit und Formularübermittlung erfordern einen Backend-Endpunkt.
+
+## Vor Veröffentlichung
+
+Die Bildmotive sind aktuell externe Unsplash-Platzhalter. Mit freigegebenen MyWash-Bildern ersetzen. Impressum und Datenschutz auf die echten Unternehmensangaben abstimmen.
